@@ -225,7 +225,7 @@ export default function Home() {
           </div>
 
           <div className="lg:w-1/2  w-full relative">
-            <div class="absolute flex justify-center items-center md:right-[15vw] right-[15vw] top-[6vw] lg:right-[11vw] md:top-16 lg:top-24 z-50">
+            <div class="absolute hidden md:flex justify-center items-center md:right-[15vw] right-[15vw] top-[6vw] lg:right-[11vw] md:top-16 lg:top-24 z-50">
               <img src="/Images/curve text.png" class="rotateAnimation"></img>
               <div class="flex absolute  justify-center items-center">
                 <img src="/Images/Vector.png"></img>
@@ -371,7 +371,7 @@ export default function Home() {
               What We Can Do For You
             </p>
 
-            <div className="flex gap-4 font-normal text-xs mb-6 lg:mb-0 lg:text-base">
+            <div className="flex lg:flex-row flex-col gap-4 font-normal text-xs mb-6 lg:mb-0 lg:text-base">
               <div className="border bg-[#293CE1] transition-all duration-300 ease-in border-[#E4E4E5] rounded-[100px] text-white hover:text-white font-white px-6 py-3">
                 <p>Design</p>
               </div>
