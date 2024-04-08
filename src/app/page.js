@@ -220,14 +220,18 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="absolute lg:block hidden top-[40%] left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+          <div className="absolute  lg:block hidden top-[40%] left-1/2 transform -translate-x-1/2 -translate-y-1/2">
             <img src="/Images/between.png"></img>
           </div>
 
           <div className="lg:w-1/2  w-full relative">
-            <div className="absolute md:right-[15vw] right-[15vw] top-[6vw] lg:right-[11vw] md:top-16 lg:top-24 z-50">
-              <img src="/Images/whatwedo.png"></img>
+            <div class="absolute flex justify-center items-center md:right-[15vw] right-[15vw] top-[6vw] lg:right-[11vw] md:top-16 lg:top-24 z-50">
+              <img src="/Images/curve text.png" class="rotateAnimation"></img>
+              <div class="flex absolute  justify-center items-center">
+                <img src="/Images/vector.png"></img>
+              </div>
             </div>
+
             <div className="absolute top-8 left-36">
               <img src="/Images/star.png"></img>
             </div>

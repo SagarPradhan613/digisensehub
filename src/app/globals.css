@@ -49,3 +49,22 @@ body {
 .gradient-bg {
   background: linear-gradient(to bottom, black, #101828);
 }
+
+.rotateAnimation{
+  animation: rotateAnimation 4s infinite;
+}
+
+@keyframes rotateAnimation {
+  0%, 100% {
+      transform: rotate(0deg);
+  }
+  25% {
+      transform: rotate(60deg);
+  }
+  50% {
+      transform: rotate(120deg);
+  }
+  75% {
+      transform: rotate(180deg);
+  }
+}
