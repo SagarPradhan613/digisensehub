@@ -228,7 +228,7 @@ export default function Home() {
             <div class="absolute flex justify-center items-center md:right-[15vw] right-[15vw] top-[6vw] lg:right-[11vw] md:top-16 lg:top-24 z-50">
               <img src="/Images/curve text.png" class="rotateAnimation"></img>
               <div class="flex absolute  justify-center items-center">
-                <img src="/Images/vector.png"></img>
+                <img src="/Images/Vector.png"></img>
               </div>
             </div>
 
@@ -393,7 +393,7 @@ export default function Home() {
             in their respective industries.
           </p>
 
-          <div className="flex flex-wrap w-full gap-3">
+          <div className="flex justify-between flex-wrap w-full gap-3">
             <div className="lg:1/3 mt-10 max-h-[273px]">
               <img src="/Images/ux1.png"></img>
             </div>
@@ -404,7 +404,7 @@ export default function Home() {
               <img src="/Images/ux1.png"></img>
             </div>
           </div>
-          <div className="flex flex-wrap -mt-4 w-full gap-3">
+          <div className="flex justify-between flex-wrap -mt-4 w-full gap-3">
             <div className="lg:1/3 mt-10 max-h-[273px]">
               <img src="/Images/ux1.png"></img>
             </div>
