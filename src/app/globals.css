@@ -2,32 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+  font-family: Poppins-Regular;
+  src: url("/Fonts/Poppins-Regular.ttf");
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+  font-family: IDGroteskTrial-Regular;
+  src: url("/Fonts/IDGroteskTrial-Regular-BF64ffd9541f2d0.ttf");
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: black;
+  font-family: Poppins-Regular;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+.headings {
+  font-family: IDGroteskTrial-Regular !important;
+}
+
+@media screen and (max-width: 710px) {
+  .res-sm-text {
+    font-size: 12px;
   }
+}
+
+@media screen and (min-width: 711px) and (max-width: 1024px) {
+}
+
+@media screen and (min-width: 1025px) {
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1350px) {
+  .res-sm-text {
+    font-size: 12px;
+  }
+}
+
+.text-grad {
+  background: linear-gradient(90deg, #FFF1E6 10.4%, #FF5A4A 46.8%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.gradient-bg {
+  background: linear-gradient(to bottom, black, #101828);
 }
